@@ -1,7 +1,6 @@
 def print_hangman(stage):
-    margin = 10  # Adjust this number based on your console width
+    margin = 10
 
-    # Define each stage of the hangman with the stand included
     stages = [
         [
             " -----",
@@ -68,6 +67,5 @@ def print_hangman(stage):
         ]  # Stand and Rope
     ]
 
-    # Print the hangman stage with the specified margin
     for line in stages[stage]:
         print(" " * margin + line)
